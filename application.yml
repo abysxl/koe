@@ -1,5 +1,5 @@
 server: # REST and WS server
-  port: 443
+  port: ${PORT}
   address: 0.0.0.0
 lavalink:
   server:
@@ -41,7 +41,7 @@ logging:
   file:
     max-history: 10
     max-size: 100MB
-  path: /app/logs/
+  path: ./logs/
 
   level:
     root: INFO
