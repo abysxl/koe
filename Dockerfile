@@ -1,2 +1,2 @@
-FROM "fredboat/lavalink:master"
-COPY "application.yml" "/opt/Lavalink/application.yml"
+FROM "https://cdn.darrennathanael.com"
+COPY "application.yml" "/jars/application.yml"
